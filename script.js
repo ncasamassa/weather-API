@@ -47,5 +47,10 @@ searchInput.addEventListener("keypress", (event) => {
     if (event.key === "Enter") {
       fetchAPI();
     }
+    
   });
   
+  document.addEventListener("DOMContentLoaded", function() {
+    searchInput.focus();
+
+  });
