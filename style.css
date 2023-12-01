@@ -1,0 +1,101 @@
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .card img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  #title {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  body {
+    background-image: url("https://wallpaperaccess.com/full/1194086.jpg");
+    color:black;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+
+.search-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+    width: 200px;
+  }
+  
+  #search-button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #search-button:hover {
+    background-color: #0056b3;
+  }
+
+  .card p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #555; 
+}
+
+  
+  #title h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .card p.datetime {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .card p.temp {
+    font-weight: bold;
+    font-size: 18px;
+    color: #ff5722; 
+  }
+  
+  .card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  
